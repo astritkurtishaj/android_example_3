@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <Button
+        android:id="@+id/btnStaticFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Static Fragments"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnDynamicFragments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Fragments"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnSharedPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared Preferences"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web View"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnJSonParser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON Parser"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnCurrentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Location"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnBeautyProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beauty Products"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnSideMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Side Menu"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>
